@@ -73,7 +73,9 @@
           "required": true,
           "validations": [
             {
-              "linkMimetypeGroup": ["image"]
+              "linkMimetypeGroup": [
+                "image"
+              ]
             },
             {
               "assetImageDimensions": {
@@ -140,7 +142,9 @@
           "required": true,
           "validations": [
             {
-              "linkContentType": ["author"]
+              "linkContentType": [
+                "author"
+              ]
             }
           ],
           "disabled": false,
@@ -160,7 +164,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["category"]
+                "linkContentType": [
+                  "category"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -251,7 +257,9 @@
           "required": true,
           "validations": [
             {
-              "linkMimetypeGroup": ["image"]
+              "linkMimetypeGroup": [
+                "image"
+              ]
             },
             {
               "assetImageDimensions": {
@@ -286,15 +294,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-            {
-              "regexp": {
-                "pattern": "(?<=^|(?<=[^a-zA-Z0-9-_\\.]))@([A-Za-z]+[A-Za-z0-9-_]+)",
-                "flags": null
-              },
-              "message": "Twitter username is invalid"
-            }
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
